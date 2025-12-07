@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/splash_background" android:gravity="center">
+    <ImageView android:id="@+id/splashLogo" android:layout_width="160dp" android:layout_height="160dp" android:layout_centerInParent="true" android:src="@drawable/ic_launcher_placeholder" android:contentDescription="splash logo" />
+    <TextView android:id="@+id/splashText" android:layout_below="@id/splashLogo" android:layout_centerHorizontal="true" android:layout_marginTop="16dp" android:text="RMS" android:textSize="18sp" android:fontFamily="sans-serif-medium" android:textColor="#FFFFFF" />
+</RelativeLayout>
